@@ -1,0 +1,17 @@
+pyrancid
+========
+
+A easy to setup rancid-type config tracker in python
+
+Currently working:
+    - ssh, telnet, and raw access
+    - command execution, storage, and diffing
+    - change emailing
+
+Still to do:
+    - significant code cleanup
+    - handle things like alert groups and per-machine
+        mail lists
+    - deal with file io errors more robustly
+    - test on more platforms
+
