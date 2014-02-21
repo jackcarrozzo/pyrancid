@@ -9,6 +9,10 @@ from ConfigParser import SafeConfigParser
 import sys,os
 import smtplib
 
+# DISCLAIMER! I wrote this when I was just starting to use Python, please
+# don't judge my abilities from it. I'd really like to rewrite it when 
+# I have time.
+
 p = SafeConfigParser()
 p.read('/home/jackc/Projects/pyrancid/mythings.cfg')
 
